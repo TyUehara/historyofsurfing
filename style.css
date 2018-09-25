@@ -1,6 +1,6 @@
 body{
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mB2OTPved-UatQJ0E_wuJ_Fl6UW1MLo7A80jyIBoP_FaPuoo");
-  color: yellow;
+  background-image:url("https://cdn.surfer.com/uploads/2017/12/ZN_7753.jpg");
+  color: black;
 }
 
 p{
@@ -9,8 +9,8 @@ p{
 
 .column{
   float: left;
-  width: 25%;
-  padding: 0px;
+  width: 22%;
+  padding: 5px;
 }
 
 .row{
@@ -21,8 +21,11 @@ p{
 
 .container{
   position: relative;
-  test-align: center;
+  text-align: center;
   color: yellow;
+  font-size: 30px;
+  font-family: Impact,sans-serif;
+  font-weight: bold;
 }
 
 .centered{
