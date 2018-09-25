@@ -1,0 +1,33 @@
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mB2OTPved-UatQJ0E_wuJ_Fl6UW1MLo7A80jyIBoP_FaPuoo");
+  color: yellow;
+}
+
+p{
+  font-family:sans-serif,monospace;
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+.row{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container{
+  position: relative;
+  test-align: center;
+  color: yellow;
+}
+
+.centered{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
